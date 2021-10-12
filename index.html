@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>CHATBOT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body onload="start()">
+    <div id="main">
+        <!-- <h2>CHATBOT</h2> -->
+        <div id="msg_area">
+            
+            <div id="robot">
+                <div id="bot"></div>
+                <div class="name"><h3>Whatsapp ChatBot</h3></div>
+                <div class="status"><h4>Online</h4></div>
+            </div>
+        </div>
+        
+        <div id="input">
+            <input type="text" spellcheck="true" placeholder="Type a message" id="text">
+            <button id="send"><i class="fa fa-paper-plane"></i> </button>
+        </div>
+    
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.22.0/axios.min.js" integrity="sha512-m2ssMAtdCEYGWXQ8hXVG4Q39uKYtbfaJL5QMTbhl2kc6vYyubrKHhr6aLLXW4ITeXSywQLn1AhsAaqrJl8Acfg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+<script src="script.js"></script>
+</html>
